@@ -1,0 +1,39 @@
+== HealthRecordPlatformApplication
+plantuml::components.puml[,,format=svg]
+
+== Access
+plantuml::module-access.puml[,,format=svg]
+include::module-access.adoc[]
+
+== Audit
+plantuml::module-audit.puml[,,format=svg]
+include::module-audit.adoc[]
+
+== Consent
+plantuml::module-consent.puml[,,format=svg]
+include::module-consent.adoc[]
+
+== Digitizer
+plantuml::module-digitizer.puml[,,format=svg]
+include::module-digitizer.adoc[]
+
+== Events
+plantuml::module-events.puml[,,format=svg]
+include::module-events.adoc[]
+
+== Identity
+plantuml::module-identity.puml[,,format=svg]
+include::module-identity.adoc[]
+
+== Notification
+plantuml::module-notification.puml[,,format=svg]
+include::module-notification.adoc[]
+
+== Records
+plantuml::module-records.puml[,,format=svg]
+include::module-records.adoc[]
+
+== Web
+plantuml::module-web.puml[,,format=svg]
+include::module-web.adoc[]
+

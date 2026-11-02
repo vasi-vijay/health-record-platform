@@ -1,0 +1,5 @@
+com/vasi/phr/ModularityTests.class
+com/vasi/phr/ApplicationSmokeTests.class
+com/vasi/phr/identity/MeControllerTests.class
+com/vasi/phr/TestcontainersConfiguration.class
+com/vasi/phr/KeycloakRealmRoleConverterTests.class

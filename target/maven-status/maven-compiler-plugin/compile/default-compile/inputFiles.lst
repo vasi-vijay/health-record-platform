@@ -1,0 +1,14 @@
+/Users/vasivijay/Library/CloudStorage/GoogleDrive-vasivenkatavijay@gmail.com/My Drive/AI_Dev/health-record-platform/src/main/java/com/vasi/phr/HealthRecordPlatformApplication.java
+/Users/vasivijay/Library/CloudStorage/GoogleDrive-vasivenkatavijay@gmail.com/My Drive/AI_Dev/health-record-platform/src/main/java/com/vasi/phr/KeycloakRealmRoleConverter.java
+/Users/vasivijay/Library/CloudStorage/GoogleDrive-vasivenkatavijay@gmail.com/My Drive/AI_Dev/health-record-platform/src/main/java/com/vasi/phr/SecurityConfig.java
+/Users/vasivijay/Library/CloudStorage/GoogleDrive-vasivenkatavijay@gmail.com/My Drive/AI_Dev/health-record-platform/src/main/java/com/vasi/phr/access/package-info.java
+/Users/vasivijay/Library/CloudStorage/GoogleDrive-vasivenkatavijay@gmail.com/My Drive/AI_Dev/health-record-platform/src/main/java/com/vasi/phr/audit/package-info.java
+/Users/vasivijay/Library/CloudStorage/GoogleDrive-vasivenkatavijay@gmail.com/My Drive/AI_Dev/health-record-platform/src/main/java/com/vasi/phr/consent/package-info.java
+/Users/vasivijay/Library/CloudStorage/GoogleDrive-vasivenkatavijay@gmail.com/My Drive/AI_Dev/health-record-platform/src/main/java/com/vasi/phr/digitizer/package-info.java
+/Users/vasivijay/Library/CloudStorage/GoogleDrive-vasivenkatavijay@gmail.com/My Drive/AI_Dev/health-record-platform/src/main/java/com/vasi/phr/events/KafkaTopicsConfig.java
+/Users/vasivijay/Library/CloudStorage/GoogleDrive-vasivenkatavijay@gmail.com/My Drive/AI_Dev/health-record-platform/src/main/java/com/vasi/phr/events/package-info.java
+/Users/vasivijay/Library/CloudStorage/GoogleDrive-vasivenkatavijay@gmail.com/My Drive/AI_Dev/health-record-platform/src/main/java/com/vasi/phr/identity/MeController.java
+/Users/vasivijay/Library/CloudStorage/GoogleDrive-vasivenkatavijay@gmail.com/My Drive/AI_Dev/health-record-platform/src/main/java/com/vasi/phr/identity/package-info.java
+/Users/vasivijay/Library/CloudStorage/GoogleDrive-vasivenkatavijay@gmail.com/My Drive/AI_Dev/health-record-platform/src/main/java/com/vasi/phr/notification/package-info.java
+/Users/vasivijay/Library/CloudStorage/GoogleDrive-vasivenkatavijay@gmail.com/My Drive/AI_Dev/health-record-platform/src/main/java/com/vasi/phr/records/package-info.java
+/Users/vasivijay/Library/CloudStorage/GoogleDrive-vasivenkatavijay@gmail.com/My Drive/AI_Dev/health-record-platform/src/main/java/com/vasi/phr/web/package-info.java

@@ -1,0 +1,55 @@
+{
+  "realm": "phr",
+  "enabled": true,
+  "displayName": "Health Record Platform (demo)",
+  "sslRequired": "external",
+  "accessTokenLifespan": 300,
+  "registrationAllowed": false,
+  "bruteForceProtected": true,
+  "permanentLockout": false,
+  "failureFactor": 5,
+  "roles": {
+    "realm": [
+      { "name": "PATIENT", "description": "A patient who owns records and decides who can see them" },
+      { "name": "DOCTOR", "description": "A doctor who can request access and write prescriptions" }
+    ]
+  },
+  "clients": [
+    {
+      "clientId": "phr-web",
+      "name": "Health Record Platform web app",
+      "enabled": true,
+      "publicClient": true,
+      "protocol": "openid-connect",
+      "standardFlowEnabled": true,
+      "directAccessGrantsEnabled": true,
+      "redirectUris": ["http://localhost:8080/*"],
+      "webOrigins": ["http://localhost:8080"],
+      "attributes": {
+        "pkce.code.challenge.method": "S256"
+      }
+    }
+  ],
+  "users": [
+    {
+      "username": "lakshmi.demo",
+      "enabled": true,
+      "email": "lakshmi.demo@example.com",
+      "emailVerified": true,
+      "firstName": "Lakshmi",
+      "lastName": "Demo",
+      "credentials": [{ "type": "password", "value": "demo-patient", "temporary": false }],
+      "realmRoles": ["PATIENT"]
+    },
+    {
+      "username": "dr.rao",
+      "enabled": true,
+      "email": "dr.rao@example.com",
+      "emailVerified": true,
+      "firstName": "Anita",
+      "lastName": "Rao",
+      "credentials": [{ "type": "password", "value": "demo-doctor", "temporary": false }],
+      "realmRoles": ["DOCTOR"]
+    }
+  ]
+}

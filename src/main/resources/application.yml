@@ -1,0 +1,45 @@
+spring:
+  application:
+    name: health-record-platform
+
+  datasource:
+    url: ${DB_URL:jdbc:postgresql://localhost:5432/phr}
+    username: ${DB_USER:phr}
+    password: ${DB_PASSWORD:phr}
+
+  jpa:
+    open-in-view: false
+    hibernate:
+      # Flyway owns the schema; Hibernate only checks that entities match it.
+      ddl-auto: validate
+
+  flyway:
+    enabled: true
+
+  kafka:
+    bootstrap-servers: ${KAFKA_BOOTSTRAP:localhost:9092}
+
+  security:
+    oauth2:
+      resourceserver:
+        jwt:
+          # Tokens must come from this realm. The JWK set is fetched on the first request, not at startup.
+          issuer-uri: ${KEYCLOAK_ISSUER:http://localhost:8180/realms/phr}
+          jwk-set-uri: ${KEYCLOAK_ISSUER:http://localhost:8180/realms/phr}/protocol/openid-connect/certs
+
+server:
+  port: ${PORT:8080}
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info
+  endpoint:
+    health:
+      probes:
+        enabled: true
+
+phr:
+  kafka:
+    record-events-topic: phr.record-events
